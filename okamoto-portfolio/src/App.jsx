@@ -1,13 +1,15 @@
-import Header from './components/Header'
-import Project from './components/Project'
+import { Outlet } from 'react-router-dom'
+import Nav from './components/Nav'
 import Footer from './components/Footer'
 
 function App() {
 
   return (
     <>
-      <Header />
-      <Project />
+      <Nav />
+      <main>
+        <Outlet />
+      </main>
       <Footer />
     </>
   )
