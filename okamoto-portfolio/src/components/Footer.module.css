@@ -1,0 +1,8 @@
+.socialLink {
+    margin-inline: 2em;
+    height: 2em;
+}
+
+.socialLink:hover {
+    opacity: 0.7;
+}

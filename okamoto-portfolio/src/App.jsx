@@ -1,12 +1,13 @@
 import { Outlet } from 'react-router-dom'
-import Nav from './components/Nav'
+import AppNavbar from './components/AppNavbar'
 import Footer from './components/Footer'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
 
   return (
     <>
-      <Nav />
+      <AppNavbar />
       <main>
         <Outlet />
       </main>
