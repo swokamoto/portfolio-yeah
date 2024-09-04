@@ -1,0 +1,22 @@
+/* flex columns to be responsive on mobile to desktop */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #f8f9fa;
+  padding: 1em;
+}
+
+main {
+  flex: 1;
+  padding: 2em;
+  background-color: #e9ecef;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 1em;
+}

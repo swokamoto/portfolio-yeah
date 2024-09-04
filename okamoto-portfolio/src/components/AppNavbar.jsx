@@ -8,11 +8,13 @@ const currentPage = useLocation().pathname;
     return (
         <header>
             
-            <Navbar expand="lg" className="bg-body-tertiary">
+            <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary" sticky="top">
                 <Container >
                     <Navbar.Brand>Scott Okamoto</Navbar.Brand>
-                    
-                    <Nav className='nav-item'>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
+
+                    <Nav className='me-auto'>
                         <Nav.Link
                             as={Link}
                             to="/"
@@ -20,9 +22,7 @@ const currentPage = useLocation().pathname;
                         >    
                             Home
                         </Nav.Link>
-                    </Nav>
-
-                    <Nav className='nav-item'>
+                    
                         <Nav.Link
                             as={Link}
                             to="/about"
@@ -30,9 +30,7 @@ const currentPage = useLocation().pathname;
                         >
                             About
                         </Nav.Link>
-                    </Nav>
-
-                    <Nav className='nav-item'>
+                    
                         <Nav.Link
                             as={Link}
                             to="/projects"
@@ -40,9 +38,7 @@ const currentPage = useLocation().pathname;
                         >
                             Projects
                         </Nav.Link>
-                    </Nav>
-
-                    <Nav className='nav-item'>
+                    
                         <Nav.Link
                             as={Link}
                             to="/contact"
@@ -50,9 +46,7 @@ const currentPage = useLocation().pathname;
                         >
                             Contact
                         </Nav.Link>
-                    </Nav>
-
-                    <Nav className='nav-item'>
+                    
                         <Nav.Link
                             as={Link}
                             to="/resume"
@@ -61,6 +55,8 @@ const currentPage = useLocation().pathname;
                             Resume
                         </Nav.Link>
                     </Nav>
+
+                    </Navbar.Collapse>
                 </Container>
             </Navbar>
 

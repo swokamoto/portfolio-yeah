@@ -2,7 +2,7 @@ import styles from './Footer.module.css';
 
 export default function Footer() {
     return (
-        <footer>
+        <footer> 
             <center>
                 <a href="https://github.com/swokamoto" target="_blank" rel="noopener noreferrer">
                     <svg className={styles.socialLink} xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
