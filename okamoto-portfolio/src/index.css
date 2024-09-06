@@ -1,5 +1,5 @@
 /* flex columns to be responsive on mobile to desktop */
-body {
+.bodyWrapper {
   display: flex;
   flex-direction: column;
   min-height: 100vh;

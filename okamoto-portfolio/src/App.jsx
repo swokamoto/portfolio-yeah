@@ -7,13 +7,13 @@ import '/src/index.css'
 function App() {
 
   return (
-    <body>
+    <div className='bodyWrapper'>
       <AppNavbar />
       <main>
         <Outlet />
       </main>
       <Footer />
-    </body>
+    </div>
   )
 }
 

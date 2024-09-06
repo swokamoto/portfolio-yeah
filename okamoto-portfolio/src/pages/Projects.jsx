@@ -1,4 +1,6 @@
 import ProjectCard from '../components/ProjectCard';
+import './Projects.css';
+import pokeLounge from '../assets/pokeLounge.png';
 
 const projects = [
   {
@@ -14,7 +16,7 @@ const projects = [
     repoLink: 'https://github.com/your-repo2'
   },
   {
-    imgSrc: './assets/Pokélounge_main.png',
+    imgSrc: pokeLounge,
     title: 'PokéLounge',
     text: 'Hangout and relax with your favorite Pokemon.',
     repoLink: 'https://github.com/group11projectpokemon/group-11-project-pokemon/'
@@ -23,7 +25,7 @@ const projects = [
 
 function Projects() {
   return (
-    <div>
+    <section className='projectWrapper'>
       {projects.map((project, index) => (
         <ProjectCard 
           key={index}
@@ -33,7 +35,7 @@ function Projects() {
           repoLink={project.repoLink}
         />
       ))}
-    </div>
+    </section>
   );
 }
 
