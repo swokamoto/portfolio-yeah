@@ -1,6 +1,6 @@
 import { Card, Button } from 'react-bootstrap';
 
-function ProjectCard({ imgSrc, title, text, repoLink }) {
+function ProjectCard({ imgSrc, title, text, repoLink, deployedLink }) {
   return (
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={imgSrc} />
@@ -9,8 +9,11 @@ function ProjectCard({ imgSrc, title, text, repoLink }) {
         <Card.Text>
           {text}
         </Card.Text>
+        <Button variant="primary" href={deployedLink} target="_blank" rel="noopener noreferrer">
+          Deployed site
+        </Button>
         <Button variant="primary" href={repoLink} target="_blank" rel="noopener noreferrer">
-          Go to repo
+          Repo
         </Button>
       </Card.Body>
     </Card>

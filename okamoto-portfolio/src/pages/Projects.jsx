@@ -7,19 +7,22 @@ const projects = [
     imgSrc: 'path/to/image1.jpg',
     title: 'Project Title 1',
     text: 'Project description 1 goes here.',
-    repoLink: 'https://github.com/your-repo1'
+    repoLink: 'https://github.com/your-repo1',
+    deployedLink: ''
   },
   {
     imgSrc: 'path/to/image2.jpg',
     title: 'Project Title 2',
     text: 'Project description 2 goes here.',
-    repoLink: 'https://github.com/your-repo2'
+    repoLink: 'https://github.com/your-repo2',
+    deployedLink: ''
   },
   {
     imgSrc: pokeLounge,
     title: 'PokéLounge',
     text: 'Hangout and relax with your favorite Pokemon.',
-    repoLink: 'https://github.com/group11projectpokemon/group-11-project-pokemon/'
+    repoLink: 'https://github.com/group11projectpokemon/group-11-project-pokemon/',
+    deployedLink: ''
   }
 ];
 
@@ -33,6 +36,7 @@ function Projects() {
           title={project.title} 
           text={project.text} 
           repoLink={project.repoLink}
+          deployedLink={project.deployedLink}
         />
       ))}
     </section>
