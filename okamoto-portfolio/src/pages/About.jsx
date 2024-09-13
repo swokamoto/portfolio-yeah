@@ -1,9 +1,11 @@
+import './About.css';
+
 export default function About() {
     return (
-        <section>
+        <section id="aboutSection">
             <h2>About Me</h2>
             <p>
-                I am a full stack web developer with a background in customer service and project management. I am passionate about creating user-friendly applications that solve real-world problems. I am a lifelong learner who is always looking for ways to improve my skills and knowledge. I am excited to bring my unique perspective and experience to a team of like-minded individuals.
+            As a full-stack web developer with a unique background in aviation mechanics and organic farming, I bring a diverse perspective to solving real-world problems through technology. I’m passionate about creating intuitive, user-friendly applications that make a tangible impact. Outside of work, I enjoy tabletop role-playing games (TTRPGs) and board games, which fuel my creativity and strategic thinking. A lifelong learner, I constantly seek to enhance my skills and stay at the forefront of innovation. I thrive in collaborative environments and am excited to bring my varied experience and passions to a team that shares my enthusiasm for continuous improvement and creative problem-solving.
             </p>
         </section>
     )

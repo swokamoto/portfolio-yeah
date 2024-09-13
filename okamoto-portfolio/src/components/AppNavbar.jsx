@@ -19,14 +19,6 @@ const currentPage = useLocation().pathname;
                             as={Link}
                             to="/"
                             className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
-                        >    
-                            Home
-                        </Nav.Link>
-                    
-                        <Nav.Link
-                            as={Link}
-                            to="/about"
-                            className={currentPage === '/about' ? 'nav-link active' : 'nav-link'}
                         >
                             About
                         </Nav.Link>
