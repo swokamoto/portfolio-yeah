@@ -25,10 +25,10 @@ const currentPage = useLocation().pathname;
                     
                         <Nav.Link
                             as={Link}
-                            to="/projects"
-                            className={currentPage === '/projects' ? 'nav-link active' : 'nav-link'}
+                            to="/portfolio"
+                            className={currentPage === '/portfolio' ? 'nav-link active' : 'nav-link'}
                         >
-                            Projects
+                            Portfolio
                         </Nav.Link>
                     
                         <Nav.Link

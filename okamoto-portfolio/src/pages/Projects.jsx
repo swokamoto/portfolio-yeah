@@ -28,18 +28,21 @@ const projects = [
 
 function Projects() {
   return (
-    <section className='projectWrapper'>
-      {projects.map((project, index) => (
-        <ProjectCard 
-          key={index}
-          imgSrc={project.imgSrc} 
-          title={project.title} 
-          text={project.text} 
-          repoLink={project.repoLink}
-          deployedLink={project.deployedLink}
-        />
-      ))}
-    </section>
+    <>
+      <h2><center>Projects</center></h2>
+      <section className='projectWrapper'>
+        {projects.map((project, index) => (
+          <ProjectCard 
+            key={index}
+            imgSrc={project.imgSrc} 
+            title={project.title} 
+            text={project.text} 
+            repoLink={project.repoLink}
+            deployedLink={project.deployedLink}
+          />
+        ))}
+      </section>
+    </>
   );
 }
 

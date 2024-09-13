@@ -1,11 +1,19 @@
 import './Contact.css';
 
 export default function Contact() {
+
+    // Not a real form submission, just an alert to show that the form is working
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        alert("Message sent!");
+        e.target.reset();
+    }
+
     return (
         <>
             <h2><center>Contact Me</center></h2>
 
-            <form action="/submit-form" method="POST">
+            <form onSubmit={handleSubmit} method="POST">
                 <label htmlFor="name">Name:</label>
                 <input type="text" id="name" name="name" required />
                 
@@ -17,7 +25,6 @@ export default function Contact() {
                 
                 <button type="submit">Submit</button>
             </form>
-
         </>
     );
 }
