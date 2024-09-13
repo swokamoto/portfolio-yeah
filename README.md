@@ -1,6 +1,6 @@
 # Scott Okamoto's Portfolio
 - [Link to GitHub repository](https://github.com/swokamoto/portfolio-yeah)
-- [Link to deployed site](tranquil-sorbet-ff95c3.netlify.app)
+- [Link to deployed site](https://tranquil-sorbet-ff95c3.netlify.app/)
 ## Table of Contents
 
 - [Scott Okamoto's Portfolio](#scott-okamotos-portfolio)
