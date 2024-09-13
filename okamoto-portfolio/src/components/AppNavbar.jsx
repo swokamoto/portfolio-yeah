@@ -1,6 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import styles from './AppNavbar.module.css';
 
 export default function AppNavbar() {
 const currentPage = useLocation().pathname;
