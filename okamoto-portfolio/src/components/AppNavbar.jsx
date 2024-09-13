@@ -10,7 +10,7 @@ const currentPage = useLocation().pathname;
             
             <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary" sticky="top">
                 <Container >
-                    <Navbar.Brand>Scott Okamoto</Navbar.Brand>
+                    <Navbar.Brand><strong>Scott Okamoto</strong></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
 
